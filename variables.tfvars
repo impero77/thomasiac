@@ -1,0 +1,10 @@
+location             = "westeurope"
+vm_size              = "Standard_B1s"
+name                 = "HanaRG"
+vn_name              = "HanaVnet"
+vm_name              = "HanaVMupdated"
+osp_cname            = "HanaComptName"
+subnetname           = "HanaSubnet"
+subnet_address_space = ["10.0.2.0/24"]
+ni_name              = "HanaNIC"
+ip_c_name            = "HanaNicConfig"
